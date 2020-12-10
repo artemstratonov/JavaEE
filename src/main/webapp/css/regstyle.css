@@ -1,0 +1,25 @@
+.outer {
+	width: 400px;
+	margin: auto;
+}
+input[type=text], 
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.register-btn {
+	width: 65%;
+	height: 45px;
+	border-width: 1px; 
+	border-radius: 10px;
+	background-color: #e7e7e7; color: black;
+}
+.btn-box { 
+	margin-top: 20px;
+	display: flex;	
+  	justify-content: center;
+}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@localhost">
-  <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.19">
+  <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.23">
     <root id="1">
       <ServerVersion>10.3.13</ServerVersion>
       <DefaultEngine>InnoDB</DefaultEngine>
@@ -1039,8 +1039,6 @@
     </user>
     <user id="332" parent="1" name="root">
       <Host>%</Host>
-      <ObjectGrants>ALL PRIVILEGES!
-</ObjectGrants>
     </user>
     <table id="333" parent="2" name="apartments"/>
     <table id="334" parent="2" name="contract"/>
